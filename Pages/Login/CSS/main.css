@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    padding-left: 42%;
+    padding-top: 5%;
+    flex-flow: column;
+    color: black;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

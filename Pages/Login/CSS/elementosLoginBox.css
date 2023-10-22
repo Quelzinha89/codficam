@@ -1,0 +1,75 @@
+.login_box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 250px;                   
+    
+}
+
+h1 {
+    padding-bottom: 19px;
+    font-size: 32px;
+    
+    
+}
+
+.email{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+}
+.senha{
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+}
+
+/* input senha e input email */
+.input{
+    background-color: lightgray;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 250px;
+    margin-top: 15px;
+}
+.button{
+    width: 145px;
+    height: 35px;
+    background-color: lightgray;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 27px;
+    font-size: 18px;
+}
+.button:hover {background-color: black;color: white;}
+.button:active {
+    color: white;
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+  }
+.login_bottom{
+    display: flex;
+    width: 250px;
+    flex-flow: column;
+    align-items: center;
+}
+hr {
+    margin-top: 40px;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:lightslategray;
+    height: 1px;
+  }

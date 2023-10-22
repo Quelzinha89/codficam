@@ -1,0 +1,15 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-rodape);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.rodape__navegacao {
+    display: flex;
+    color: var(--branco);
+    text-align: center;
+    line-height: 3;
+    justify-content: space-between;
+}
