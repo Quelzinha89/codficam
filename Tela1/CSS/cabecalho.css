@@ -26,23 +26,18 @@
 
 .cabecalho__navegacao {
     text-align: center;
-    font-size: 1.3rem;
-    font-weight: bold;
-    display: inline-block;
-    margin-right: .7rem;
-    margin-bottom: 1.25rem;
-    margin-left: .7rem;
     
 }
 
 .cabecalho__link {
-    font-size: 1.1rem;
-
+    font-size: 1.3rem;
     display: inline-block;
-
+    font-weight: bold;
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
+   
+    
 }
  
 @media screen and (min-width: 1024px) {

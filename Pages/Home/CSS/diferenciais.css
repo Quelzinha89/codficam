@@ -15,6 +15,7 @@
     background-position: top 1.25rem left 2.5rem;
     box-sizing: border-box;
 
+
     padding: 2rem 0 2rem 5rem;
 }
 
@@ -57,12 +58,23 @@
     margin-top: 1.5rem;
 }
 
+.item__texto_midde {
+    margin-top: 1rem;
+    max-width: 100%;
+    line-height: normal;
+    align-items: justify ;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    white-space-collapse: preserve-breaks;
+}
+
 .item__texto {
+    margin-top: 1rem;
     line-height: normal;
     align-items: center ;
     font-size: 1.25rem;
-    justify-self: auto;
-    white-space: nowrap;
+    text-align: justify;
+    max-width: 350px;
 }
 
 @media  screen and (min-width: 1024px) {

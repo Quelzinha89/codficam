@@ -24,6 +24,7 @@
 
 .diferenciais__item--foco {
     background-image: url(../img/icone-dinheiro.png);
+    
 }
 
 .diferenciais__item--especialistas {
@@ -35,12 +36,16 @@
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
-
     margin-bottom: 1.5rem;
+    
 }
 
 .item__texto {
-    line-height: normal;
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
 }
 
 @media  screen and (min-width: 1024px) {
@@ -50,6 +55,11 @@
     }
 
     .diferenciais__lista{
-        justify-content:space-around;
+        color: var(--cinza-escuro);
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+
     }
 }
